@@ -1,10 +1,12 @@
+# import requests
+
+# from module import MainFrame
+from frames.MainFrame import MainFrame
 
 
 def run():
-    #game = SnakesAndLadder()
-    #game.view()
-    print('hello')
-
+    MainFrame()
+    
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
